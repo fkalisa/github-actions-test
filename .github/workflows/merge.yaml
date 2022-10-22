@@ -1,8 +1,8 @@
 name: PRs to develop
 on:
   pull_request:
-    branches: [develop]
-    types: [closed]
+    branches: [ develop ]
+    types: [ closed ]
 jobs:
   merge-develop-to-uat:
     if: github.event.pull_request.merged == true
