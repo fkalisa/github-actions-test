@@ -19,7 +19,6 @@ jobs:
         run: |
           pwd
           ls
-          echo {{ secrets.GITHUB_TOKEN }}
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
