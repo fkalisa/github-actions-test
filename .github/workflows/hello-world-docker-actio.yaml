@@ -1,8 +1,9 @@
 # action.yml
 name: 'Hello World'
 on: [ push ]
+jobs:
+  run-shell-command:
 
-description: 'Greet someone and record the time'
 inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
